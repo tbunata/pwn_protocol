@@ -19,4 +19,4 @@ jobs:
       - name: Perform audit
         env:
           WAKE_ARENA_API_KEY: ${{ secrets.WAKE_ARENA_API_KEY }}
-        run: wake-arena check --name "${{ github.event.head_commit.message }}" --project "7IpvFufZ"
+        run: wake-arena check --name "${{ github.event.head_commit.message }}" --project "V12iMRSg"
